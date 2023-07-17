@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            height: 80px;
+            width: 100px;
+            background-color: purple;
+            margin: 200px;
+            border-radius: 15px 25px 5px 25px;
+            position:absolute;
+            bottom: 190px;
+            left: 10px;
+            
+        }
+        .M{
+            height: 1px;
+            width: 4px;
+            background:linear-gradient(white,black) ;
+            margin: 100px;
+            position: absolute;
+            left: 158px;
+            bottom: 320px;
+            animation-name: Mouth;
+            animation-timing-function: linear;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes Mouth {
+            100%{
+                transition-duration: 5s;
+                transform: scale(6);
+            }
+            
+        }
+        .LE{
+            height: 10px;
+            width: 10px;
+            border-radius: 100%;
+            background:linear-gradient(white,black) ;
+            position:absolute;
+            bottom: 440px;
+            left: 270px;
+        }
+        .RE{
+            height: 10px;
+            width: 10px;
+            border-radius: 100%;
+            background:linear-gradient(white,black) ;
+            position:absolute;
+            bottom: 440px;
+            left: 240px;
+        }
+        .Body{
+            height: 200px;
+            width: 100px;
+            margin: 100px;
+            background:linear-gradient(black,white,purple) ;
+            border-radius: 10px 10px 10px 10px;
+            position: absolute;
+            bottom: 85px;
+            left: 110px;
+        }
+        .RH{
+            height: 100px;
+            width: 20px;
+            margin: 100px;
+            background:linear-gradient(black,white,purple);
+            border-radius: 15px 15px 15px 15px;
+            position: absolute;
+            top: 160px;
+            left: 75px;
+            animation-name:Rhand ;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes Rhand {
+            0%{ 
+            transition-duration: 5s;
+            transition-timing-function: linear;
+            transform: rotate(30deg);
+        }
+        }
+        .LH{
+            height: 100px;
+            width: 20px;
+            margin: 100px;
+            background:linear-gradient(black,white,purple);
+            border-radius: 15px 15px 15px 15px;
+            position: absolute;
+            top: 160px;
+            left: 220px;
+            animation-name:Lhand ;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes Lhand {
+            0%{ 
+            transition-duration: 5s;
+            transition-timing-function: linear;
+            transform: rotate(-30deg);
+        }
+    }
+        .RL{
+            height: 100px;
+            width: 20px;
+            margin: 100px;
+            background:linear-gradient(black,white,purple);
+            border-radius: 15px 15px 15px 15px;
+            position: absolute;
+            top: 320px;
+            left: 220px;
+            animation-name:RLeg ;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes RLeg {
+            0%{ 
+            transition-duration: 5s;
+            transition-timing-function: linear;
+            transform: rotate(-30deg);
+        }
+    }
+        .LL{
+            height: 100px;
+            width: 20px;
+            margin: 100px;
+            background:linear-gradient(black,white,purple);
+            border-radius: 15px 15px 15px 15px;
+            position: absolute;
+            top: 320px;
+            left: 75px;
+            animation-name:LLeg ;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes LLeg {
+            0%{ 
+            transition-duration: 5s;
+            transition-timing-function: linear;
+            transform: rotate(30deg);
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <b><h1><i>Dancing Robot</i></h1></b>
+    <div class="head"></div>
+    <div class="LE"></div>
+    <div class="RE"></div>
+    <div class="Body"></div>
+    <div class="RH"></div>
+    <div class="LH"></div>
+    <div class="RL"></div>
+    <div class="LL"></div>
+    <div class="M"></div>
+    <div class=""></div>
+</body>
+</html>
